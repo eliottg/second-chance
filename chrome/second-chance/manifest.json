@@ -1,0 +1,11 @@
+  {
+    "name": "Second Chance",
+    "version": "1.0",
+    "description": "Second chance... to get things done!",
+    "manifest_version": 2,
+	"permissions": ["tabs"],
+	"background": {
+		  "scripts": ["hello.js"],
+		  "persistent": false
+		}
+  }
